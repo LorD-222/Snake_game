@@ -3,6 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
+@app.route('/snake_game')
 def index():
     return render_template('index.html')  # Убедитесь, что файл 'index.html' находится в папке 'templates'
 
