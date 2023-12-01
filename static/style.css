@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0; /* Светлый фон страницы */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameCanvas {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.scoreboard {
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 5px;
+}
+
+.control-settings {
+    margin-top: 10px;
+}
+
+.control-settings label {
+    margin-right: 10px;
+}
+
+.mobile-controls {
+    display: none; /* Скрыть по умолчанию, будет отображаться только на мобильных устройствах */
+}
+
+.swipe-area {
+    width: 300px; /* Размер равен размеру игрового поля */
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+    opacity: 0; /* Сделать область невидимой, но активной для взаимодействия */
+}
