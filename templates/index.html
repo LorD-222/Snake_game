@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Змейка</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('snake_static', filename='style.css') }}">
 </head>
 <body>
     <div class="game-container">
@@ -25,6 +25,6 @@
             <div id="swipeArea" class="swipe-area"></div>
         </div>
     </div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('snake_static', filename='script.js') }}"></script>
 </body>
 </html>

@@ -27,8 +27,8 @@ let controlMode = 'arrows';
 let GAME_SPEED = 100;
 
 
-canvas.width = 300;
-canvas.height = 300;
+canvas.width = 500;
+canvas.height = 500;
 
 function updateGame() {
     if (isGameOver()) {
